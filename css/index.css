@@ -1,0 +1,328 @@
+.Navigation {
+    height: 40px;
+    background-color: #333;
+    font-size: 12px;
+    width: 100%;
+}
+
+.container {
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    /*解决高度塌陷 */
+}
+
+.top-left-nav {
+    width: 794.13px;
+    height: 40px;
+    float: left;
+    background-color: #333;
+}
+
+.top-left-nav a {
+    color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.sep {
+    color: #424242;
+    margin: 3px;
+}
+
+.top-right-one {
+    width: 150px;
+}
+
+.top-right-one,
+.top-right-two {
+    float: right;
+}
+
+.top-right-one a,
+.top-right-two a {
+    color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.top-right-two {
+    width: 120px;
+    text-align: center;
+    background-color: #424242;
+    color: #b0b0b0;
+}
+
+.logo {
+    float: left;
+    margin-top: 22px;
+}
+
+nav {
+    width: 600px;
+    height: 88px;
+    float: left;
+    margin-left: 180px;
+}
+
+nav a {
+    display: inline-block;
+    color: #333;
+    line-height: 88px;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.faj {
+    width: 52px;
+    height: 50px;
+    float: right;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(87, 87, 87, 0.856);
+}
+
+#baidu {
+    width: 245px;
+    height: 50px;
+    float: right;
+    border: 1px solid #e0e0e0;
+    padding: 0 5px;
+    color: #a5a3a3f5;
+}
+
+form {
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+
+.main {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.left {
+    width: 234px;
+    height: 420px;
+    background-color: rgba(105, 101, 101, .6);
+    color: #ffffff;
+    padding: 20px 0;
+    float: left;
+}
+
+.main-left {
+    width: 1226px;
+    background-image: url(/xiaomi网站/img/轮播图1.png);
+    height: 460px;
+    background-size: 1226px;
+}
+
+ul>a {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 42px;
+}
+
+.left ul>a>li {
+    padding: 0 0 0 20px;
+}
+
+.ooo:hover {
+    background-color: #ff6700;
+}
+
+#angle {
+    float: right;
+    margin-right: 20px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.left {
+    position: absolute;
+    z-index: 12;
+    /* 调节左侧导航位置 */
+}
+
+.o {
+    position: absolute;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.box-img {
+    opacity: 0;
+    /* 全部图形都隐藏 */
+    transition: all 1s;
+}
+
+.box-img:last-of-type {
+    opacity: 1;
+    /* 显示图形1 */
+}
+
+.box-right {
+    width: 41px;
+    height: 69px;
+    color: rgbA(155, 156, 160, 0.2);
+    position: absolute;
+    left: 234px;
+    text-align: center;
+    top: 200px;
+    line-height: 69px;
+    font-size: 35px;
+}
+
+.box-right:hover {
+    width: 41px;
+    height: 69px;
+    background-color: rgba(72, 84, 90, 0.7);
+    color: #f2f3f4;
+    border-radius: 0 2px 2px 0;
+}
+
+.box-left {
+    width: 41px;
+    height: 69px;
+    color: rgbA(155, 156, 160, 0.2);
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 200px;
+    line-height: 69px;
+    font-size: 35px;
+}
+
+.box-left:hover {
+    width: 41px;
+    height: 69px;
+    background-color: rgba(72, 84, 90, 0.7);
+    color: #f2f3f4;
+    border-radius: 0 2px 2px 0;
+}
+
+.dian li {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: rgb(114, 113, 113);
+    float: right;
+    margin: 0 5px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    margin-top: 10px;
+    /* 垂直设置 */
+    transform-origin: center;
+}
+
+.dian li:hover {
+    background-color: #b0b0b0;
+    /* transform: translateZ(50%) */
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+
+.dian {
+    width: 900px;
+    height: 30px;
+    position: absolute;
+    top: 410px;
+    right: 50px;
+    float: left;
+    line-height: 30px;
+}
+
+.main-bottom-muon {
+    width: 1226;
+    height: 170px;
+    /* background-color: #333; */
+    margin: 14px 0 0 0;
+}
+
+.main-bottom-muon-one {
+    width: 234px;
+    height: 170px;
+    background-color: #5f5750;
+    float: left;
+    /* overflow: hidden; */
+}
+
+.main-bottom-muon-one li {
+    width: 70px;
+    height: 82px;
+    padding: 0 3px;
+    float: left;
+}
+
+.main-bottom-muon-one img {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto 4px;
+}
+
+.main-bottom-muon-one-a {
+    padding-top: 18px;
+    display: block;
+    text-align: center;
+    color: #cfccca;
+    background-color: rgba(0, 0, 0, 0);
+    border-left: 1px #665e57 solid;
+    border-bottom: 1px #665e57 solid;
+}
+
+.span16 {
+    margin-left: 16px;
+}
+
+.span16 img {
+    display: block;
+    width: 314px;
+    height: 170px;
+    margin-left: 16px;
+    float: left;
+}
+
+
+/* 固定定位的样式 */
+
+.fix {
+    position: fixed;
+    bottom: 70px;
+    right: 0;
+    z-index: 99;
+}
+
+.fix .item {
+    display: block;
+    width: 82px;
+    height: 90px;
+    margin-top: -1px;
+    background-color: #fff;
+    border: 1px solid #f5f5f5;
+    text-align: center;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto 8px;
+    padding-top: 18px;
+}
+
+.icon .sit {
+    width: 30px;
+    height: 30px;
+}
+
+.item>span {
+    color: #757575;
+}
